@@ -25,7 +25,7 @@ def get_background(image_file):
     st.markdown(css, unsafe_allow_html=True)
 
 # Setting background image
-get_background("E:\\virtual enviorment\\farm.png")
+get_background("farm.png")
 
 # Loading pre-trained model
 model=tf.keras.models.load_model("model.h5")
